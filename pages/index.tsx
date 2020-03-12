@@ -3,7 +3,7 @@ import Layout from '../src/components/layout/Layout';
 
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
-  <Layout>
+  <Layout title="Home | NextJS Starter Kit">
     <h1 className="text-2xl font-bold text-purple-500">Hello world! - user agent: {userAgent}</h1>
   </Layout>
 );
